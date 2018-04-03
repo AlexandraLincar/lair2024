@@ -1,0 +1,88 @@
+1
+Are ana mere?
+1) Da
+2) Nu
+3) Poate
+3
+Random
+##
+1
+Are ana pere?
+1) Da
+2) Nu
+3) Poate
+3
+Random
+##
+1
+Pere?
+1) Da
+2) Nu
+3) Poate
+3
+Random
+##
+5
+Este Maria acasa?
+1) Poate
+2) Da
+3) Nu
+1
+Random
+##
+6
+DA?
+1) a
+2) b
+3) c
+2
+Random
+##
+10
+Se poate?
+1) Da
+2) Nu
+3) Poate
+3
+Random
+##
+10
+Se prea poate?
+1) Da
+2) Nu
+3) Poate
+3
+Maxim
+##
+22
+Care este formula corecta pentru apa?
+1) H2SO4
+2) H2O
+3) NaCl
+2
+Chimie
+##
+23
+Care este formula corecta pentru sarea de bucatarie?
+1) NaCl
+2) NACL
+3) NACl
+1
+Chimie
+##
+33
+Cat face 2+2?
+1) 2
+2) 4
+3) 6
+2
+Matematica
+##
+55
+Cate vagoane are un tren?
+1) 10
+2) 20
+3) Cate vrea
+3
+Trenuri
+##
