@@ -1,0 +1,16 @@
+1
+Este intrebarea 1?
+1) Da
+2) Nu
+3) Nu stiu
+1
+Intrebare
+##
+2
+Este intrebarea 2?
+1) Da
+2) Nu
+3) Nu stiu
+2
+Domeniu2
+##

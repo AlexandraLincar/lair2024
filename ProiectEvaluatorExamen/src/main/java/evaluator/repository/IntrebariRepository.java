@@ -22,10 +22,10 @@ public class IntrebariRepository {
 		setIntrebari(new LinkedList<Intrebare>());
 	}
 	
-	public void addIntrebare(Intrebare i) throws DuplicateIntrebareException{
+	public boolean addIntrebare(Intrebare i) throws DuplicateIntrebareException{
 		if(exists(i))
 			throw new DuplicateIntrebareException("Intrebarea deja exista!");
-		intrebari.add(i);
+		return intrebari.add(i);
 	}
 	
 	public boolean exists(Intrebare i){

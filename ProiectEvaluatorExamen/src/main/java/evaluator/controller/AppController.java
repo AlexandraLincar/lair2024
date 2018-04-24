@@ -32,10 +32,10 @@ public class AppController {
 	
 	public Test createNewTest() throws NotAbleToCreateTestException{
 		
-		if(intrebariRepository.getIntrebari().size() < 3)
+		if(intrebariRepository.getIntrebari().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
 		
-		if(intrebariRepository.getNumberOfDistinctDomains() < 4)
+		if(intrebariRepository.getNumberOfDistinctDomains() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
 		
 		List<Intrebare> testIntrebari = new LinkedList<Intrebare>();
