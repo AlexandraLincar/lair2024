@@ -35,8 +35,8 @@
       <file leaf-file-name="WhiteBoxTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/repository/WhiteBoxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="682">
+              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,7 +219,29 @@
             </path>
             <path>
               <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -544,7 +566,7 @@
       <workItem from="1524131208621" duration="5000" />
       <workItem from="1524502312828" duration="5398000" />
       <workItem from="1524582840054" duration="419000" />
-      <workItem from="1525855117885" duration="3204000" />
+      <workItem from="1525855117885" duration="5064000" />
     </task>
     <servers />
   </component>
@@ -581,7 +603,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45959000" />
+    <option name="totallyTimeSpent" value="47819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
@@ -1124,16 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/repository/WhiteBoxTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/repository/IntegrareTopDownLab4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1154,6 +1166,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/repository/WhiteBoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
