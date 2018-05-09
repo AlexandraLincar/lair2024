@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>evaluator</groupId>
-  <artifactId>ProiectEvaluatorExamen</artifactId>
+  <artifactId>lair2024</artifactId>
   <version>1.0-SNAPSHOT</version>
   <build>
     <plugins>
@@ -19,7 +19,7 @@
   </build>
   <packaging>jar</packaging>
 
-  <name>ProiectEvaluatorExamen</name>
+  <name>lair2024</name>
   <url>http://maven.apache.org</url>
 
   <properties>
