@@ -6,9 +6,22 @@ import evaluator.exception.InputValidationFailedException;
 import evaluator.model.Intrebare;
 import org.junit.Assert;
 
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 class IntrebariRepositoryTest {
+
+    @org.junit.jupiter.api.Test
+    void testAddIntrebare() {
+        AppController ctrl = new AppController();
+
+        try {
+            ctrl.addNewIntrebare(new Intrebare("20","Intrebare1?", "1)a", "2)b", "3)c", "1", "Domeniu"));
+            assertTrue(true);
+        } catch (Exception e) {
+            assertTrue(false);
+        }
+    }
 
     @org.junit.jupiter.api.Test
     void testAddIntrebareEnunt() {
@@ -116,26 +129,26 @@ class IntrebariRepositoryTest {
         }
     }
 
-    @org.junit.jupiter.api.Test
-    void testAddIntrebare() {
-        IntrebariRepository intrebariRepository = new IntrebariRepository();
-        String id = "20";
-        String enunt = "Care este intrebarea?";
-        String varianta1 = "1) Asta";
-        String varianta2 = "2) Cealalta";
-        String varianta3 = "3) Niciuna";
-        String variantaCorecta = "3";
-        String domeniu = "Random";
-        try {
-            Intrebare newIntrebare = new Intrebare(id, enunt, varianta1, varianta2, varianta3, variantaCorecta, domeniu);
-            intrebariRepository.addIntrebare(newIntrebare);
-            Assert.assertFalse(intrebariRepository.getIntrebari().isEmpty());
-        } catch (InputValidationFailedException e) {
-            System.out.println(e.toString());
-        } catch (DuplicateIntrebareException e) {
-            e.printStackTrace();
-        }
-    }
+//    @org.junit.jupiter.api.Test
+//    void testAddIntrebare() {
+//        IntrebariRepository intrebariRepository = new IntrebariRepository();
+//        String id = "20";
+//        String enunt = "Care este intrebarea?";
+//        String varianta1 = "1) Asta";
+//        String varianta2 = "2) Cealalta";
+//        String varianta3 = "3) Niciuna";
+//        String variantaCorecta = "3";
+//        String domeniu = "Random";
+//        try {
+//            Intrebare newIntrebare = new Intrebare(id, enunt, varianta1, varianta2, varianta3, variantaCorecta, domeniu);
+//            intrebariRepository.addIntrebare(newIntrebare);
+//            Assert.assertFalse(intrebariRepository.getIntrebari().isEmpty());
+//        } catch (InputValidationFailedException e) {
+//            System.out.println(e.toString());
+//        } catch (DuplicateIntrebareException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     @org.junit.jupiter.api.Test
     void testAddIntrebareVariante() {
